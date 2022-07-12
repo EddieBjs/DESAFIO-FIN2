@@ -1,0 +1,125 @@
+body { 
+    margin:0%;
+    padding:0%;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-family: 'Neuton', serif;
+   overflow-x: hidden;
+   background-color: black;
+}
+
+
+#menu a { 
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin: 5px;
+    
+}
+
+.carousel-inner { 
+    max-height: 45rem; }
+
+.intro { 
+   padding-top: 10px;
+   margin: 20px;
+    border: 1px solid black;
+    color: white;
+}
+
+
+.intro h1 { 
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif }    
+
+.introduccion p {
+
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    
+
+}
+
+
+.servicios { 
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif
+
+  }
+
+    #portafolio { 
+        padding: 20px 0;
+        text-align: center;
+        color: white;
+  }
+
+    .portafolio-row { 
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    .portafolio-row-box {
+        flex: 1;
+        border: 5px solid gray;
+        margin: 20px 10px; 
+        padding: 20px;}
+        
+
+        .portafolio-row-box h4 {
+            padding-top: 10px;
+            color: white;
+        }
+
+        .portafolio-row-box p  { 
+            padding: 0 20px 0 10px;
+        color: white;}
+ 
+
+        #formulario {
+            text-align: center;
+        }
+
+
+        .formcont { 
+         position: absolute;
+         top: 30%;
+         left: 50%;
+         transform: translate(-50%, -50%);
+         background-color: black;
+         border-radius: 5px;
+         max-width: 500px;
+
+        }
+
+
+
+
+
+/* MEDIA QUERIES */ 
+
+@media (max-width:768px) {
+    #textprim {
+        width: 90% !important
+    }
+
+}
+
+@media (max-width:768px) {
+    .portafolio-row {
+        display: flex;
+        flex-direction: column;
+        width: 100% !important;
+    }
+
+
+
+
+}
